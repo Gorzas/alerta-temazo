@@ -3,7 +3,7 @@
   "description": "Alerta Temazo. Based on Gatsby MDX Blog Starter Project of Robin Wieruch <hello@rwieruch.com> (https://www.robinwieruch.de/",
   "version": "1.0.0",
   "author": "José David Cano 'Gorzas' <joseda87@gmail.com> (https://gorzas.com/)",
-  "repository": "https://github.com/rwieruch/gatsby-mdx-starter-project",
+  "repository": "https://github.com/Gorzas/alerta-temazo",
   "dependencies": {
     "@mdx-js/mdx": "^1.0.14",
     "@mdx-js/react": "^1.0.6",

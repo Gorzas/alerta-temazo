@@ -9,6 +9,7 @@ import Paragraph from './Paragraph';
 import Link from '../Link';
 
 export const MDXLayoutComponents = {
+  Title,
   h1: props => <Title {...props} />,
   h2: props => <Subtitle {...props} />,
   p: props => <Paragraph {...props} />,

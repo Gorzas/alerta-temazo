@@ -38,7 +38,6 @@ const GlobalStyle = createGlobalStyle`
 const NAVIGATION = [
   { to: '/', label: 'About' },
   { to: '/blog', label: 'Blog' },
-  { to: 'https://roadtoreact.com', label: 'Courses' },
 ];
 
 export default ({ site, frontmatter = {}, children }) => {
