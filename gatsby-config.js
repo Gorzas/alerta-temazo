@@ -1,15 +1,14 @@
 module.exports = {
   pathPrefix: '/',
   siteMetadata: {
-    siteUrl: 'https://www.robinwieruch.de/',
-    author: 'Robin Wieruch',
-    title: 'Gatsby MDX Starter Project',
-    description: 'My Gatsby MDX Starter Project',
+    siteUrl: 'https://alertatemazo.com/',
+    author: 'Gorzas',
+    title: 'Alerta Temazo - Donde suena la música',
+    description: 'Alerta Temazo - Donde suena la música',
     keywords: [
-      'Software Engineer',
-      'Web Developer',
-      'Consultant',
-      'Freelancer',
+      'música',
+      'blog',
+      'dj',
     ],
   },
   plugins: [
