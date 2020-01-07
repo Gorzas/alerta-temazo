@@ -11,6 +11,7 @@ import { MDXLayoutComponents, MDXGlobalComponents } from './mdx';
 
 const GlobalStyle = createGlobalStyle`
   html, body {
+    background: grey;
     margin: 0;
     padding: 0;
   }
