@@ -50,8 +50,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'A learning, teaching and writing software engineer',
-        short_name: 'RWieruch',
+        name: 'Alerta Temazo - Donde suena la música',
+        short_name: 'Gorzas',
         start_url: '/',
         background_color: '#fff',
         theme_color: '#525dce',
