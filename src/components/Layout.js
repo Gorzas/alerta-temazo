@@ -7,6 +7,7 @@ import { createGlobalStyle } from 'styled-components';
 import 'prismjs/themes/prism-okaidia.css';
 
 import Link from './Link';
+import Header from './Header';
 import { MDXLayoutComponents, MDXGlobalComponents } from './mdx';
 
 const GlobalStyle = createGlobalStyle`
@@ -76,6 +77,7 @@ export default ({ site, frontmatter = {}, children }) => {
           ...MDXGlobalComponents,
         }}
       >
+        <Header />
         <Fragment>
           <ul>
             {NAVIGATION.map(navigation => (
