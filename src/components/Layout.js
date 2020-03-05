@@ -13,6 +13,7 @@ import { MDXLayoutComponents, MDXGlobalComponents } from './mdx';
 const GlobalStyle = createGlobalStyle`
   html, body {
     background: #fff;
+    font-family: "Open sans", sans-serif;
     margin: 0;
     padding: 0;
   }

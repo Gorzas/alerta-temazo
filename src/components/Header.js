@@ -14,9 +14,7 @@ const Img = styled.img`
 export default () => {
   return (
     <Header>
-      <a href="/">
-        <Img src={Logo} alt="Alerta Temazo" />
-      </a>
+      <a href="/"><Img src={Logo} alt="Alerta Temazo" /></a>
     </Header>
   )
 };

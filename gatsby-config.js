@@ -60,5 +60,18 @@ module.exports = {
       },
     },
     'gatsby-plugin-offline',
+    {
+      resolve: 'gatsby-plugin-prefetch-google-fonts',
+      options: {
+        fonts: [
+          {
+            family: 'Open Sans',
+          },
+          {
+            family: 'Nunito',
+          },
+        ],
+      },
+    },
   ],
 };

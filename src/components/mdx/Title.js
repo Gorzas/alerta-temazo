@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export default styled.h1`
   text-align: center;
+  font-family: "Nunito", sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 1.1;
