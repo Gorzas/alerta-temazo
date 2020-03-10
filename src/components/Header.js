@@ -3,18 +3,23 @@ import styled from 'styled-components';
 
 import Logo from '../images/alerta-temazo.jpg';
 
+const A = styled.a`
+  display: inline-block;
+`;
+
 const Header = styled.header`
-  max-height: 100px;
+  padding-top: 2rem;
+  text-align: center;
 `;
 
 const Img = styled.img`
-  height: 100%;
+  width: 25rem;
 `;
 
 export default () => {
   return (
     <Header>
-      <a href="/"><Img src={Logo} alt="Alerta Temazo" /></a>
+      <A href="/"><Img src={Logo} alt="Alerta Temazo" /></A>
     </Header>
   )
 };
