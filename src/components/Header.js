@@ -1,13 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import Logo from '../images/alerta-temazo.jpg';
+import Logo from '../images/alerta-temazo.png';
 
 const A = styled.a`
   display: inline-block;
 `;
 
 const Header = styled.header`
+  background: #a6c9d0;
   padding-top: 2rem;
   text-align: center;
 `;
