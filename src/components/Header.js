@@ -8,7 +8,7 @@ const A = styled.a`
 `;
 
 const Header = styled.header`
-  background: #a6c9d0;
+  background: #FDE700;
   padding-top: 2rem;
   text-align: center;
 `;
