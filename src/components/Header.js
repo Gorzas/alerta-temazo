@@ -9,7 +9,8 @@ const A = styled.a`
 
 const Header = styled.header`
   background: #FDE700;
-  padding-top: 2rem;
+  padding-bottom: 6rem;
+  padding-top: 1.1rem;
   text-align: center;
 `;
 
