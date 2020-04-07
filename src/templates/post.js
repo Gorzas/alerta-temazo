@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react';
 import { graphql } from 'gatsby';
 import Img from 'gatsby-image';
-import MDXRenderer from 'gatsby-mdx/mdx-renderer';
+import MDXRenderer from 'gatsby-plugin-mdx';
 
 import Layout from '../components/Layout';
 import Link from '../components/Link';
