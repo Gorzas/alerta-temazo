@@ -79,17 +79,6 @@ export default ({ site, frontmatter = {}, children }) => {
         }}
       >
         <Header />
-        <Fragment>
-          <ul>
-            {NAVIGATION.map(navigation => (
-              <li key={navigation.label}>
-                <Link to={navigation.to}>{navigation.label}</Link>
-              </li>
-            ))}
-          </ul>
-
-          {children}
-        </Fragment>
       </MDXProvider>
     </Fragment>
   );
