@@ -79,9 +79,6 @@ export const pageQuery = graphql`
         categories
         keywords
       }
-      code {
-        body
-      }
     }
   }
 `;
