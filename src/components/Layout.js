@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import Helmet from 'react-helmet';
 import { graphql } from 'gatsby';
 import { MDXProvider } from '@mdx-js/react';
-import { createGlobalStyle } from 'styled-components';
+import styled, { createGlobalStyle } from 'styled-components';
 
 import 'prismjs/themes/prism-okaidia.css';
 
@@ -35,6 +35,11 @@ const GlobalStyle = createGlobalStyle`
     padding-right: 1em;
     padding-left: 1em;
   }
+`;
+
+const Body = styled.section`
+  margin: 0 auto;
+  max-width: 960px;
 `;
 
 export default ({ site, frontmatter = {}, children }) => {
@@ -73,9 +78,9 @@ export default ({ site, frontmatter = {}, children }) => {
         }}
       >
         <Header />
-        <Fragment>
+        <Body>
           {children}
-        </Fragment>
+        </Body>
       </MDXProvider>
     </Fragment>
   );

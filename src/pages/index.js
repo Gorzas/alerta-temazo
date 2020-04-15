@@ -2,12 +2,20 @@ import React from 'react';
 import { graphql } from 'gatsby';
 
 import Layout from '../components/Layout';
-import Grid from '../components/Grid';
+import Excerpt from '../components/Excerpt';
 
 export default function Index({ data: { site, allMdx } }) {
+  const posts = allMdx.edges.map(({ node: post }) => post);
+
   return (
     <Layout site={site}>
-      <Grid posts={allMdx.edges.map(({ node: post }) => post)} />
+      {posts && posts.slice(1, 7).map((post, i) => (
+        <Excerpt
+          id={post.id}
+          key={i}
+          post={post}
+        />
+      ))}
     </Layout>
   );
 }
